@@ -42,7 +42,7 @@ class NotificationController extends Controller
         );
 
         $FcmToken = User::whereNotNull('device_token')->pluck('device_token')->all();
-        $serverKey = 'AAAAAdtzJ9k:APA91bF8vttXUGg11WA7Z6HeUoejy0_SagI6mV4dPW1NUXNXc46V8ZDt7UpxXaAMIY8OzUJDb7wWfiQVH8r0y4HqAAakSq8iVzcY-s_qBYGl3TKnyExwmen-sEtxHVrJLd-g5thaMJiZ';
+        $serverKey = 'YOUR_SERVER_KEY';
         $url = 'https://fcm.googleapis.com/fcm/send';
         $notification = [
             'registration_ids' => $FcmToken,
