@@ -4,13 +4,13 @@ importScripts(
 );
 
 firebase.initializeApp({
-    apiKey: "AIzaSyD11X1uPuGInvHF8NAgMWCjfeLXakZl088",
-    authDomain: "laravel-notifications-805c5.firebaseapp.com",
-    projectId: "laravel-notifications-805c5",
-    storageBucket: "laravel-notifications-805c5.appspot.com",
-    messagingSenderId: "7976724441",
-    appId: "1:7976724441:web:f1b094f737c78816c31bc8",
-    measurementId: "G-B5Z1XVCYQG"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   });
 
   self.addEventListener('push', function (event) {
