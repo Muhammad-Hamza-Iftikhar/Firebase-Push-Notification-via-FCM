@@ -77,7 +77,7 @@
 
         // Retrieve the device token
         messaging.getToken({
-                vapidKey: 'BPIg5lTl4gnE5BCBfqbNrRXUUXZKHGHPT_PiZTnU4vM4Ad-XFS_7usqhzLIhvmha3gdAdM_N2BHpewew91jCsZU' // Replace with your VAPID key
+                vapidKey: 'YOUR_PUBLIC_KEY' // Replace with your VAPID key
             })
             .then((currentToken) => {
                 if (currentToken) {
